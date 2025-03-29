@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-solana-dark text-solana-light;
+}
+
+.wallet-adapter-button-trigger {
+  @apply !bg-solana-purple hover:!bg-solana-purple/90 !rounded-lg !px-4 !py-2 !text-white;
+}
